@@ -159,6 +159,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "audiosphere",
+	owner: "asus",
+	jars: ["proprietary/system/framework/audiosphere.jar"],
+}
+
+dex_import {
 	name: "com.qti.dpmframework",
 	owner: "asus",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
